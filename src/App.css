@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.search-container {
+  float: left;
+  width : 50%;
+}
+
+.search-container form{
+  margin-bottom: 8px;
+}
+
+input[type=text] {
+  display: inline-block;
+  width: 70%;
+  margin: 8px 12px 0px 30px;
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid gray;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+.tweet-search-list {
+  position: absolute;
+  margin: 8px 12px 0px 30px;
+  width: 41%;
+  height: 600px;
+  border : 1px solid gray;
+  overflow: auto;
+}
+
+.tweet-search-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tweet {
+    display: inline-grid;
+    width: 99%;
+    border: 1px solid gray;
+    margin: 3px;
+    background-color: antiquewhite;
+}
+
+.saved-tweet {
+  margin-left: 27px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
